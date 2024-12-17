@@ -5,7 +5,7 @@ const [yesBtn, noBtn] = [".yes-btn", ".no-btn"].map(qs);
 
 const handleYesClick = () => {
   question.innerHTML = "Try me boss";
-  gif.src = "https://media.giphy.com/media/fBPDt7yAbP9LSxRM7Q/giphy.gif";
+  gif.src = "https://media1.tenor.com/m/NGxs4MTdKcAAAAAd/kiss-wink.gif";
 
   // Remove the 'mouseover' event listener from noBtn
   noBtn.removeEventListener("mouseover", handleNoMouseOver);
