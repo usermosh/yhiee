@@ -4,7 +4,7 @@ const gif = qs(".gif");
 const [yesBtn, noBtn] = [".yes-btn", ".no-btn"].map(qs);
 
 const handleYesClick = () => {
-  question.innerHTML = "Yun ohhh! Salamat po!! <3";
+  question.innerHTML = "Try me boss";
   gif.src = "https://media.giphy.com/media/fBPDt7yAbP9LSxRM7Q/giphy.gif";
 
   // Remove the 'mouseover' event listener from noBtn
@@ -15,9 +15,9 @@ const handleYesClick = () => {
 
   // Define predefined romantic date ideas
   const dateIdeas = [
-    "Tas Biglang nag Init",
-    "Hinawakan sa bewang",
-    "Tara na sa Kwarto hehe",
+    "Saan Tayo?",
+    "Jan na sainyo",
+    "Tara dito",
 
 
     // Add more date ideas as needed
@@ -25,7 +25,7 @@ const handleYesClick = () => {
 
   // Create and style a new button for Let's Go!
   const letsGoBtn = document.createElement("button");
-  letsGoBtn.textContent = "Thanks, Don't forget to read the notes love hehe";
+  letsGoBtn.textContent = "Click and read";
   letsGoBtn.classList.add("letsgo-btn"); // You can add a class for styling if needed
   letsGoBtn.style.position = "absolute";
 
